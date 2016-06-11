@@ -1,11 +1,11 @@
 #!/bin/bash
 #cannot sync subdirectory of the cloud
 #KDE only
-. /home/tina/Scripts/synapse.env
+. /home/$USER/Scripts/synapse.env
 
 GFILE_LIST=/tmp/gfilelist.$$.txt
 LOG=/tmp/cloudSync.log
-ICON=/home/tina/Scripts/cloud_sync/icon.png
+ICON=/home/$USER/Scripts/cloud_sync/icon.png
 VERSION='Synapse v1.0'
 
 if [[ "$?" != 0 ]];then

@@ -1,5 +1,5 @@
 #!/bin/bash
-. /home/tina/Scripts/synapse.env
+. /home/$USER/Scripts/synapse.env
 LOG=/var/log/arp_defencer.log
 #function ask router for MAC
 function _getghw(){
