@@ -19,6 +19,7 @@ echo "Installing nodejs and reactJS toolkit"
 dnf -y install nodejs
 npm install -g express-generator
 npm install -g create-react-app
+npm install -g mocha
 # create-react-app projectName
 # express backendProjectName
 
