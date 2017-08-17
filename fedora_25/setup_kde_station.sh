@@ -4,7 +4,7 @@ cd ~/Scripts
 echo "Choose input method"
 im-chooser
 echo "To install software, please input your root password"
-su
+dnf -y install vim
 dnf -y group install KDE
 dnf -y group install "Development Tools"
 dnf -y install kio-gdrive
